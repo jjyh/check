@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T21:04:28.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="msouLnyEe3LIsvEw16sx" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T21:06:11.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="LFY3G2ZBfgZ3nrQF7BUx" version="22.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="875" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1900" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="submittal_datasets" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="212" width="325" height="378" as="geometry" />
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="submittals" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="200" width="325" height="378" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
           <mxGeometry y="30" width="325" height="30" as="geometry" />
@@ -28,7 +28,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-8" value="user_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-8" value="lab_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
           <mxGeometry x="30" width="295" height="30" as="geometry">
             <mxRectangle width="295" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="users" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="55" y="212" width="250" height="258" as="geometry" />
+          <mxGeometry x="50" y="207" width="250" height="258" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-24" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -99,7 +99,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="user_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -112,21 +112,26 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="user_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="lab_id char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6bqY5o3mOroTgVvBI9Zh-2" value="&lt;ol type=&quot;1&quot; style=&quot;margin-left: 0.375in; direction: ltr; unicode-bidi: embed; margin-top: 0in; margin-bottom: 0in; font-family: Calibri; font-size: 11pt; font-weight: normal;&quot;&gt;&#xa; &lt;li value=&quot;1&quot; style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-weight: normal; font-family: Calibri; font-size: 11pt;&quot;&gt;User Stories&lt;/span&gt;&lt;/li&gt;&#xa; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;Database Nouns/Tables&lt;/span&gt;&lt;/li&gt;&#xa; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;Entity relationship diagram (&lt;/span&gt;&lt;a href=&quot;https://app.diagrams.net/&quot;&gt;&lt;span style=&quot;font-family:Calibri;&#xa;     font-size:11.0pt&quot;&gt;https://app.diagrams.net/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;)&lt;/span&gt;&lt;/li&gt;&#xa; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;Routes (CRUD) &amp;lt;- can we by&#xa;     pass this a low code way (any shiny/python live examples)&lt;/span&gt;&lt;/li&gt;&#xa; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;Wireframe each page (&lt;/span&gt;&lt;a href=&quot;https://www.figma.com&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:&#xa;     11.0pt&quot;&gt;https://www.figma.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-family:Calibri;&#xa;     font-size:11.0pt&quot;&gt;)&lt;/span&gt;&lt;/li&gt;&#xa;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="380" y="710" width="450" height="250" as="geometry" />
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6bqY5o3mOroTgVvBI9Zh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="830" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="6bqY5o3mOroTgVvBI9Zh-3" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:16.0pt;color:#212529&quot;&gt;&lt;span style=&quot;background:white&quot;&gt;Data:&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;ul type=&quot;disc&quot; style=&quot;margin-left:.375in;direction:ltr;unicode-bidi:embed;&lt;br/&gt; margin-top:0in;margin-bottom:0in&quot;&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;background:white&quot;&gt;identify the&amp;nbsp;nouns in our user stories (i.e. user, posts, pins ..etc.).&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;background:white&quot;&gt;pull out all&amp;nbsp;these nouns and turn them into tables.&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;background:white&quot;&gt;Nouns are&amp;nbsp;resources&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;background:white&quot;&gt;Tables:&amp;nbsp;users, maps, pins, posts...etc.&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;color:#212529;background:white&quot;&gt;create&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:14.15pt;color:#D22876;background:&lt;br/&gt;     white&quot;&gt;ERD&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;&lt;br/&gt;     color:#212529;background:white&quot;&gt;&amp;nbsp;to connect relationshops.&lt;/span&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="55" y="860" width="490" height="180" as="geometry" />
+        <mxCell id="6bqY5o3mOroTgVvBI9Zh-2" value="&lt;ol type=&quot;1&quot; style=&quot;margin-left: 0.375in; direction: ltr; unicode-bidi: embed; margin-top: 0in; margin-bottom: 0in; font-family: Calibri; font-size: 11pt; font-weight: normal;&quot;&gt;&#xa; &lt;li value=&quot;1&quot; style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-weight: normal; font-family: Calibri; font-size: 11pt;&quot;&gt;User Stories&lt;/span&gt;&lt;/li&gt;&#xa; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;Database Nouns/Tables&lt;/span&gt;&lt;/li&gt;&#xa; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;Entity relationship diagram (&lt;/span&gt;&lt;a href=&quot;https://app.diagrams.net/&quot;&gt;&lt;span style=&quot;font-family:Calibri;&#xa;     font-size:11.0pt&quot;&gt;https://app.diagrams.net/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;)&lt;/span&gt;&lt;/li&gt;&#xa; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;Routes (CRUD) &amp;lt;- can we by&#xa;     pass this a low code way (any shiny/python live examples)&lt;/span&gt;&lt;/li&gt;&#xa; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:11.0pt&quot;&gt;Wireframe each page (&lt;/span&gt;&lt;a href=&quot;https://www.figma.com&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:&#xa;     11.0pt&quot;&gt;https://www.figma.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-family:Calibri;&#xa;     font-size:11.0pt&quot;&gt;)&lt;/span&gt;&lt;/li&gt;&#xa;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="80" y="700" width="450" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6bqY5o3mOroTgVvBI9Zh-3" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:16.0pt;color:#212529&quot;&gt;&lt;span style=&quot;background:white&quot;&gt;Step 1/3&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:16.0pt;color:#212529&quot;&gt;&lt;span style=&quot;background:white&quot;&gt;Data:&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;ul type=&quot;disc&quot; style=&quot;margin-left:.375in;direction:ltr;unicode-bidi:embed;&lt;br/&gt; margin-top:0in;margin-bottom:0in&quot;&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;background:white&quot;&gt;identify the&amp;nbsp;nouns in our user stories (i.e. user, posts, pins ..etc.).&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;background:white&quot;&gt;pull out all&amp;nbsp;these nouns and turn them into tables.&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;background:white&quot;&gt;Nouns are&amp;nbsp;resources&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;background:white&quot;&gt;Tables:&amp;nbsp;users, maps, pins, posts...etc.&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;color:#212529;background:white&quot;&gt;create&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:14.15pt;color:#D22876;background:&lt;br/&gt;     white&quot;&gt;ERD&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:16.2pt;&lt;br/&gt;     color:#212529;background:white&quot;&gt;&amp;nbsp;to connect relationshops.&lt;/span&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="910" width="490" height="180" as="geometry" />
         </mxCell>
         <mxCell id="6bqY5o3mOroTgVvBI9Zh-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. As a &lt;b&gt;user&lt;/b&gt;, I want to check my &lt;b&gt;pre-submittal data sheet&lt;/b&gt; for&lt;b&gt;&amp;nbsp;quality requirements&amp;nbsp;&lt;/b&gt;because I do not want the submission rejected for basic errors&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. As a &lt;b&gt;user&lt;/b&gt;, I do not want my &lt;b&gt;pre-submittal data sheet &lt;/b&gt;published/saved because of confidentiality.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. As a &lt;b&gt;user&lt;/b&gt;, I want to be able to send my &lt;b&gt;final checked data sheet&lt;/b&gt; for &lt;b&gt;round submittal &lt;/b&gt;either on the website or by email because of traceability (need it logged - conf. email).&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. As an &lt;b&gt;admin user&lt;/b&gt;, I want to be able receive the submitted&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;final checked data sheet&lt;/b&gt;&amp;nbsp;with &lt;b&gt;submittal detail log &lt;/b&gt;because I need to further QAQC/pipe to data analysis.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. As an &lt;b&gt;admin user&lt;/b&gt;, I need the website (demo) publicly accessible because of business case.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;2a. As a user, I do not want my pre-submittal data published/saved because of confidentiality.&amp;nbsp; (I might want to consult ? so I do want to be able to save the fail reports?)&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="26" y="41" width="960" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="6bqY5o3mOroTgVvBI9Zh-5" value="submission_records" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="6bqY5o3mOroTgVvBI9Zh-5" value="records" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="200" width="250" height="170" as="geometry" />
         </mxCell>
         <mxCell id="6bqY5o3mOroTgVvBI9Zh-6" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="6bqY5o3mOroTgVvBI9Zh-5" vertex="1">
@@ -137,7 +142,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6bqY5o3mOroTgVvBI9Zh-8" value="log_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="6bqY5o3mOroTgVvBI9Zh-6" vertex="1">
+        <mxCell id="6bqY5o3mOroTgVvBI9Zh-8" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="6bqY5o3mOroTgVvBI9Zh-6" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -163,135 +168,203 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6bqY5o3mOroTgVvBI9Zh-14" value="submittal_date_time date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="6bqY5o3mOroTgVvBI9Zh-12" vertex="1">
+        <mxCell id="6bqY5o3mOroTgVvBI9Zh-14" value="created_at TIMESTAMP " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="6bqY5o3mOroTgVvBI9Zh-12" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-2" value="user_email" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
-          <mxGeometry x="85" y="299" width="220" height="30" as="geometry">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-2" value="last_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
+          <mxGeometry x="86" y="329" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-4" value="user_institution char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
-          <mxGeometry x="86" y="327" width="220" height="30" as="geometry">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-4" value="title char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="389" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-6" value="status (pre selected text)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-6" value="final BOOLEAN" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
           <mxGeometry x="810" y="320" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="1">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="400" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-8" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-7">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-8" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="OLvyXjZIV-3iLolBgsrd-7" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-9" value="Option 1 - Each submittal&#39;s granular data&#xa;Option 2 - Each submittal&#39;s QC results only&#xa;Option 3 - Final submittal&#39;s granular data" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#6c8ebf;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-7">
-          <mxGeometry x="120" y="-7" width="260" height="120" as="geometry">
-            <mxRectangle width="220" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-10" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="1">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-10" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="337" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-11" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-10">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-11" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="OLvyXjZIV-3iLolBgsrd-10" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C-vyLk0tnHw3VtMMgP7b-13">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1150" y="60" as="sourcePoint" />
             <mxPoint x="1290" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1030" y="-200" as="sourcePoint" />
             <mxPoint x="1280" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-25" value="&amp;nbsp;KEEP IN HARD&lt;br&gt;CODE for now&lt;br&gt;(no need to edit online)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-25" value="&amp;nbsp;KEEP IN HARD&lt;br&gt;CODE for now&lt;br&gt;(no need to edit online)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1010" y="-70" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-26" value="&lt;ul type=&quot;disc&quot; style=&quot;margin-left:.375in;direction:ltr;unicode-bidi:embed;&lt;br/&gt; margin-top:0in;margin-bottom:0in&quot;&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;background:white&quot;&gt;Primary key&amp;nbsp;column:&lt;/span&gt;&lt;/li&gt;&lt;ul type=&quot;circle&quot; style=&quot;margin-left:.375in;direction:ltr;unicode-bidi:embed;&lt;br/&gt;  margin-top:0in;margin-bottom:0in&quot;&gt;  &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;color:#212529;background:&lt;br/&gt;      white&quot;&gt;Use the name&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;&lt;br/&gt;      font-size:12.05pt;color:#D22876;background:white&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;color:#212529;background:&lt;br/&gt;      white&quot;&gt;&amp;nbsp;and then&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;&lt;br/&gt;      font-size:12.05pt;color:#D22876;background:white&quot;&gt;SERIAL PRIMARY KEY&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;color:#212529;background:&lt;br/&gt;      white&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;/ul&gt;&lt;br&gt; &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;background:white&quot;&gt;Foreign key&amp;nbsp;columns:&lt;/span&gt;&lt;/li&gt;&lt;ul type=&quot;circle&quot; style=&quot;margin-left:.375in;direction:ltr;unicode-bidi:embed;&lt;br/&gt;  margin-top:0in;margin-bottom:0in&quot;&gt;&lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;color:#212529;background:&lt;br/&gt;      white&quot;&gt;Add&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:12.05pt;&lt;br/&gt;      color:#D22876;background:white&quot;&gt;_id&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;&lt;br/&gt;      font-size:13.75pt;color:#212529;background:white&quot;&gt;&amp;nbsp;to the singular&lt;br&gt;      name of the column you are referencing.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;color:#212529;background:&lt;br/&gt;      white&quot;&gt;If the primary key is&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;&lt;br/&gt;      font-size:12.05pt;color:#D22876;background:white&quot;&gt;SERIAL&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;color:#212529;background:&lt;br/&gt;      white&quot;&gt;, then the foreign key should be&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:12.05pt;color:#D22876;background:&lt;br/&gt;      white&quot;&gt;INTEGER&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;&lt;br/&gt;      color:#212529;background:white&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;br&gt;  &lt;li style=&quot;margin-top:0;margin-bottom:0;vertical-align:middle;color:#212529&quot;&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;color:#212529;background:&lt;br/&gt;      white&quot;&gt;create the foreign key with&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:12.05pt;color:#D22876;background:&lt;br/&gt;      white&quot;&gt;REFERENCES table_name(id) ON DELETE CASCADE&lt;/span&gt;&lt;span style=&quot;font-family:Calibri;font-size:13.75pt;color:#212529;background:&lt;br/&gt;      white&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;br&gt; &lt;/ul&gt;&lt;br&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-26" value="&lt;ul type=&quot;disc&quot; style=&quot;margin-left:.375in;direction:ltr;unicode-bidi:embed;&lt;br/&gt; margin-top:0in;margin-bottom:0in&quot;&gt;&lt;br&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="576" y="1130" width="390" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-28" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" edge="1" parent="1">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-28" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" parent="1" edge="1" target="C-vyLk0tnHw3VtMMgP7b-6" source="vGxOkrH0zRZI_J92hGHK-6">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="305" y="257" as="sourcePoint" />
             <mxPoint x="365" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-29" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="6bqY5o3mOroTgVvBI9Zh-9">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-29" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="6bqY5o3mOroTgVvBI9Zh-9" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="650" y="370" as="sourcePoint" />
             <mxPoint x="715" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-41" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1" source="OLvyXjZIV-3iLolBgsrd-35" target="6bqY5o3mOroTgVvBI9Zh-9">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="617" y="470" as="sourcePoint" />
-            <mxPoint x="680" y="250" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="907" y="430" />
-              <mxPoint x="861" y="400" />
-              <mxPoint x="821" y="430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OLvyXjZIV-3iLolBgsrd-32" target="C-vyLk0tnHw3VtMMgP7b-9">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OLvyXjZIV-3iLolBgsrd-32" target="C-vyLk0tnHw3VtMMgP7b-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-31" value="rounds" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="785" y="420" width="250" height="158" as="geometry" />
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-44" value="Option - can we utilise Wix&#39;s login and bypass creating login route/encrypted password registry here" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="121" y="440" width="185" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-32" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-31">
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-1" value="&lt;div&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol&quot; color=&quot;#212529&quot;&gt;&lt;span style=&quot;font-size: 21.6px;&quot;&gt;Step 2/3&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 21.6px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Tables should be named pluralized&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Tables and attribute names are written in&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18.9px; color: rgb(210, 40, 118); word-break: break-word;&quot;&gt;snake_case&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;A foreign key is made up of the singular of the primary keys table and the suffix&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;id (`user_&lt;/em&gt;id`)&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol&quot; color=&quot;#212529&quot;&gt;&lt;span style=&quot;font-size: 21.6px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); background-color: initial;&quot;&gt;Primary key&amp;nbsp;column:&lt;/span&gt;&lt;br&gt;&lt;ul style=&quot;border-color: var(--border-color); margin-left: 0.375in; direction: ltr; unicode-bidi: embed; margin-bottom: 0in;&quot; type=&quot;disc&quot;&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(33, 37, 41); background-color: initial; border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt;&quot;&gt;Use the name&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(210, 40, 118); background: white;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41); background-color: initial; border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt;&quot;&gt;&amp;nbsp;and then&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(210, 40, 118); background: white;&quot;&gt;SERIAL PRIMARY KEY&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41); background-color: initial; border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt;&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ul style=&quot;border-color: var(--border-color); margin-left: 0.375in; direction: ltr; unicode-bidi: embed; margin-bottom: 0in;&quot; type=&quot;circle&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/ul&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); margin-top: 0px; margin-bottom: 0px; vertical-align: middle; color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt; background: white;&quot;&gt;Foreign key&amp;nbsp;columns:&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;border-color: var(--border-color); margin-left: 0.375in; direction: ltr; unicode-bidi: embed; margin-bottom: 0in;&quot; type=&quot;circle&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); margin-top: 0px; margin-bottom: 0px; vertical-align: middle; color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt;&quot;&gt;Add&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 12.05pt; background: white;&quot;&gt;_id&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; background: white;&quot;&gt;&amp;nbsp;to the singular&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;name of the column you are referencing.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); margin-top: 0px; margin-bottom: 0px; vertical-align: middle; color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt;&quot;&gt;If the primary key is&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(210, 40, 118); background: white;&quot;&gt;SERIAL&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt;&quot;&gt;, then the foreign key should be&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 12.05pt; color: rgb(210, 40, 118);&quot;&gt;INTEGER&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt; background: white;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); margin-top: 0px; margin-bottom: 0px; vertical-align: middle; color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt;&quot;&gt;create the foreign key with&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 12.05pt; color: rgb(210, 40, 118);&quot;&gt;REFERENCES table_name(id) ON DELETE CASCADE&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; font-size: 13.75pt;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1240" width="560" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.stack.imgur.com/tuRiZ.png;" vertex="1" parent="1">
+          <mxGeometry x="620" y="650" width="524" height="385.83" as="geometry" />
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-9" value="Option 1 - Each submittal&#39;s granular data&#xa;Option 2 - Each submittal&#39;s QC results only&#xa;Option 3 - Final submittal&#39;s granular data&#xa;&#xa;proceed w/ 3 but add fake link to submittal storage location" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="397.5" y="458" width="260" height="120" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-3" value="email" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="85" y="359" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-5" value="labs" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="530" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-6" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="vGxOkrH0zRZI_J92hGHK-5">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-33" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-32">
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-7" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="vGxOkrH0zRZI_J92hGHK-6">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-34" value="round_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-32">
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-8" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="vGxOkrH0zRZI_J92hGHK-6">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-31">
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-9" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="vGxOkrH0zRZI_J92hGHK-5">
           <mxGeometry y="60" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-36" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-35">
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-10" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="vGxOkrH0zRZI_J92hGHK-9">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-37" value="submission_record_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-35">
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-11" value="name varchar(255)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="vGxOkrH0zRZI_J92hGHK-9">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-38" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-31">
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-12" value="alias varchar(255)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="85" y="618" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-13" value="address varchar(255)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="85" y="648" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-14" value="first_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="299" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-17" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;opacity=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="148" width="424" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-18" value="&lt;b&gt;LATER STAGE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4" y="218" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-20" value="password varchar(255)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontColor=#333333;strokeColor=#666666;textOpacity=50;" vertex="1" parent="1">
+          <mxGeometry x="85" y="684" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-22" value="date TIME" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="817" y="539" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-31" value="rounds" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="786" y="430" width="250" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-32" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="OLvyXjZIV-3iLolBgsrd-31" vertex="1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-33" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="OLvyXjZIV-3iLolBgsrd-32" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-34" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="OLvyXjZIV-3iLolBgsrd-32" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="OLvyXjZIV-3iLolBgsrd-31" vertex="1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-36" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="OLvyXjZIV-3iLolBgsrd-35" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-37" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="OLvyXjZIV-3iLolBgsrd-35" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-38" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="OLvyXjZIV-3iLolBgsrd-31" vertex="1">
           <mxGeometry y="90" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-39" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-38">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-39" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="OLvyXjZIV-3iLolBgsrd-38" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-40" value="round_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="OLvyXjZIV-3iLolBgsrd-38">
+        <mxCell id="OLvyXjZIV-3iLolBgsrd-40" value="name VARCHAR(255)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="OLvyXjZIV-3iLolBgsrd-38" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OLvyXjZIV-3iLolBgsrd-44" value="Option - can we utilise Wix&#39;s login and bypass creating login route/encrypted password registry here" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="85" y="367" width="185" height="73" as="geometry" />
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-29" value="file_location VARCHAR(255)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="420" y="351" width="295" height="30" as="geometry">
+            <mxRectangle width="295" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGxOkrH0zRZI_J92hGHK-30" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="26" y="74" width="10" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
